@@ -1,0 +1,22 @@
+# Git
+.git/
+.gitignore
+
+# Docker
+*.env
+docker-compose.yml
+
+# Python files
+dbt/
+venv/
+**/__pycache__/
+*.pyc
+.coverage
+.python_history
+
+# Shell
+.bash_history
+
+# Airflow
+airflow-webserver.pid
+unittests.cfg
